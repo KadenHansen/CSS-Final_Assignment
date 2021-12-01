@@ -5,9 +5,29 @@ nav {
 }
 
 .nav-link {
-    color: #E4E5F0;
+    color: #E4E5F0 !important;
 }
 
 .nav-link:hover {
-    color: white;
+    color: white !important;
+}
+
+#intro-p {
+    font-size: 1.5em;
+    color: #495057;
+}
+
+.btn-primary {
+    background-color: #7952B3 !important;
+    border-color: #7952B3 !important;
+}
+
+.btn-outline-warning {
+    color: #FFE484 !important;
+    border-color: #FFE484 !important;
+}
+
+.btn-outline-warning:hover {
+    background-color: #FFE484 !important;
+    color: black !important;
 }
